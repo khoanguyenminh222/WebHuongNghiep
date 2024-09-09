@@ -1,0 +1,39 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-image: url('../images/header-bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+section {
+    padding: 60px 0;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.navbar .nav-item {
+    width: 100px;
+    font-size: 0.8rem;
+}
+
+/* Hiển thị dropdown khi hover chuột vào */
+.nav-item .dropdown .dropdown-menu{
+    display: block;
+    margin-top: 0; /* Đảm bảo menu không bị lệch */
+}
+
+.dropdown-menu {
+    font-size: 0.8rem;
+    
+}
+
+.dropdown-menu .dropdown-item {
+    white-space: break-spaces;
+    width: 200px;
+}
